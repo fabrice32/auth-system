@@ -8,8 +8,6 @@ Outils utilisés:
     - Express: utilisé pour le backend
     - Novu ; utilisé pour mettre en place le système de vérification de numéro de téléphone. https://novu.co/
 
-sudo git remote set-url origin https://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@github.com/fabrice32/auth-system.git
-
 
 initialisation du projet:
 
