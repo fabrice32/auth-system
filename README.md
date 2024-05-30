@@ -8,8 +8,6 @@ Outils utilisés:
     - Express: utilisé pour le backend
     - Novu ; utilisé pour mettre en place le système de vérification de numéro de téléphone. https://novu.co/
 
-sudo git remote set-url origin https://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@github.com/fabrice32/auth-system.git
-
 
 initialisation du projet:
 
@@ -25,3 +23,33 @@ git clone https://github.com/fabrice32/auth-system.git
         
         Entrer dans Server:
             lancer node index.js
+
+
+Installation de Novu:
+    Vous allez dans le dossier server: cd server
+    Et vous lancez :
+        npm install @novu/node 
+    Ensuite vous lancez :
+        npx novu init
+
+Après cela vous devriez vous retrouvez avec ceci :
+
+Now let's setup your account and send your first notification
+
+❓ What is your application name? auth-system
+
+❓ Now lets setup your environment. How would you like to proceed?
+
+   > Create a free cloud account (Recommended)
+
+❓ Create your account with:
+
+   > Sign-in with GitHub
+
+❓ I accept the Terms and Condidtions (https://novu.co/terms) and have read the Privacy Policy (https://novu.co/privacy)
+
+    > Yes
+
+✔️ Create your account successfully.
+
+Après cce sera bon.
