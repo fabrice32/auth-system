@@ -45,6 +45,7 @@ const PhoneVerify = () => {
 					value={code}
 					onChange={(e) => setCode(e.target.value)}
 					required
+   				    autoCapitalize="off"
 				/>
 				<button className='codeBtn'>AUTHENTICATE</button>
 			</form>
