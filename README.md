@@ -36,7 +36,7 @@ Après cela vous devriez vous retrouvez avec ceci :
 
 Now let's setup your account and send your first notification
 
-❓ What is your application name? Devto Clone
+❓ What is your application name? auth-system
 
 ❓ Now lets setup your environment. How would you like to proceed?
 
